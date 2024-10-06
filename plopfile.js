@@ -6,24 +6,26 @@ export default function (plop) {
         type: "input",
         name: "destinationpath",
         message: "Template destination path",
-      },
-      {
-        type: "input",
-        name: "title",
-        message: "Document title",
+        default: ".",
       },
       {
         type: "input",
         name: "fileName",
         message: "Name of the file (without the extension)",
-        default: "document.html",
+        default: "document",
+      },
+      {
+        type: "input",
+        name: "title",
+        message: "Document title",
+        default: "New Document",
       },
     ],
     actions: [
       {
         type: "add",
         path: "{{destinationpath}}/{{fileName}}.html",
-        templateFile: "plop-templates/EmptyHtmlDocument.html.hbs",
+        templateFile: ".plop/templates/EmptyHtmlDocument.html.hbs",
       },
     ],
   });
