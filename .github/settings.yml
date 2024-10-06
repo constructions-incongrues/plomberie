@@ -38,7 +38,7 @@ branches:
         required_approving_review_count: 1
         dismiss_stale_reviews: true
         require_code_owner_reviews: true
-      required_status_checks: # null to disable
+      required_status_checks: ~ # null to disable
         # strict: true
         # contexts:
         #   - Check dist/
