@@ -30,6 +30,8 @@ actions:
     - trunk-announce
     - trunk-check-pre-push
   enabled:
+    - commitlint
+    - yarn-check
     - trunk-fmt-pre-commit
     - trufflehog-pre-commit
     - trunk-check-pre-commit
@@ -38,4 +40,5 @@ tools:
   disabled:
     - trivy
   enabled:
+    - yarn@1.22.19
     - actionlint@1.6.9
