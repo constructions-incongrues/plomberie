@@ -2,6 +2,7 @@
 
 ## Features
 
+- [ ] Code quality checks using [trunk.io](https://trunk.io/code-quality)
 - [ ] Github Flow
 - [ ] Code quality checks using [trunk.io](https://trunk.io/code-quality)
 - [ ] main branch deploys to github pages

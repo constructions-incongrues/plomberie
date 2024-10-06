@@ -8,11 +8,9 @@ repository:
     - boilerplate
   visibility: public
   has_issues: true #
-  has_issues: true #
   has_projects: false
   has_wiki: false
   has_discussions: false
-  is_template: true
   is_template: true
   default_branch: main
   allow_squash_merge: true
@@ -41,12 +39,10 @@ branches:
         # required_approving_review_count: 1
         # dismiss_stale_reviews: true
         # require_code_owner_reviews: true
-      required_status_checks:
-        ~ # null to disable
-        # strict: true
-        # contexts:
-        #   - Check dist/
-        #   - TypeScript Tests
+      required_status_checks: # null to disable
+        strict: true
+        contexts:
+          - Trunk Check
       enforce_admins: true
       restrictions: null
       required_linear_history: true
