@@ -7,11 +7,11 @@ repository:
   topics:
     - boilerplate
   visibility: public
-  has_issues: false # same
+  has_issues: true #
   has_projects: false
   has_wiki: false
   has_discussions: false
-  is_template: trie
+  is_template: true
   default_branch: main
   allow_squash_merge: true
   allow_merge_commit: false
@@ -34,10 +34,10 @@ collaborators:
 branches:
   - name: main
     protection: # null to delete this branch's protection rule
-      required_pull_request_reviews: # null to disable
-        required_approving_review_count: 1
-        dismiss_stale_reviews: true
-        require_code_owner_reviews: true
+      required_pull_request_reviews: ~ # null to disable
+        # required_approving_review_count: 1
+        # dismiss_stale_reviews: true
+        # require_code_owner_reviews: true
       required_status_checks:
         ~ # null to disable
         # strict: true

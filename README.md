@@ -9,3 +9,5 @@
 - [ ] Mandatory semantic commits
 - [ ] Release with [release-it](https://github.com/release-it/release-it)
 - [ ] Repository settings as code
+- [ ] Devcontainer
+- [ ] Scaffolder
