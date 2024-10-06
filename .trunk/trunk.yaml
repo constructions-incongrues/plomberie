@@ -30,6 +30,7 @@ actions:
     - trunk-announce
     - trunk-check-pre-push
   enabled:
+    - commitlint
     - yarn-check
     - trunk-fmt-pre-commit
     - trufflehog-pre-commit
