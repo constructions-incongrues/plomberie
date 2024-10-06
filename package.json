@@ -1,6 +1,11 @@
 {
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "plop": "^4.0.1"
   },
-  "version": "0.1.0"
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "plop": "plop"
+  }
 }
