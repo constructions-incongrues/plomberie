@@ -8,9 +8,11 @@ repository:
     - boilerplate
   visibility: public
   has_issues: true #
+  has_issues: true #
   has_projects: false
   has_wiki: false
   has_discussions: false
+  is_template: true
   is_template: true
   default_branch: main
   allow_squash_merge: true
@@ -34,7 +36,8 @@ collaborators:
 branches:
   - name: main
     protection: # null to delete this branch's protection rule
-      required_pull_request_reviews: ~ # null to disable
+      required_pull_request_reviews:
+        ~ # null to disable
         # required_approving_review_count: 1
         # dismiss_stale_reviews: true
         # require_code_owner_reviews: true
