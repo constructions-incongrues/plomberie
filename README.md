@@ -12,6 +12,7 @@
 - [ ] Repository settings as code
 - [ ] Devcontainer
 - [ ] Scaffolder
+- [ ] Documentation
 
 ## Getting started
 
