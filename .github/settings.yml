@@ -8,9 +8,11 @@ repository:
     - boilerplate
   visibility: public
   has_issues: true #
+  has_issues: true #
   has_projects: false
   has_wiki: false
   has_discussions: false
+  is_template: true
   is_template: true
   default_branch: main
   allow_squash_merge: true
