@@ -34,10 +34,10 @@ collaborators:
 branches:
   - name: main
     protection: # null to delete this branch's protection rule
-      required_pull_request_reviews: # null to disable
-        required_approving_review_count: 0
-        dismiss_stale_reviews: true
-        require_code_owner_reviews: true
+      required_pull_request_reviews: ~ # null to disable
+        # required_approving_review_count: 1
+        # dismiss_stale_reviews: true
+        # require_code_owner_reviews: true
       required_status_checks:
         ~ # null to disable
         # strict: true
