@@ -11,3 +11,9 @@
 - [ ] Repository settings as code
 - [ ] Devcontainer
 - [ ] Scaffolder
+
+## Getting started
+
+```shell-session
+trunk git-hooks sync
+```
