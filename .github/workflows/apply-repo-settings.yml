@@ -19,6 +19,6 @@ jobs:
         uses: mooseburgr/repository-settings-action@v0.1.1
 
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           # optionally override the default settings file path
           settings-path: .github/settings.yml
