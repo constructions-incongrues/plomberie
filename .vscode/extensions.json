@@ -3,6 +3,7 @@
     "vivaxy.vscode-conventional-commits",
     "github.vscode-github-actions",
     "github.vscode-pull-request-github",
-    "trunk.io"
+    "trunk.io",
+    "samkirkland.plop-templates"
   ]
 }
