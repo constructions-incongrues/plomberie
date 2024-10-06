@@ -7,11 +7,11 @@ repository:
   topics:
     - boilerplate
   visibility: public
-  has_issues: false # same
+  has_issues: true #
   has_projects: false
   has_wiki: false
   has_discussions: false
-  is_template: trie
+  is_template: true
   default_branch: main
   allow_squash_merge: true
   allow_merge_commit: false
