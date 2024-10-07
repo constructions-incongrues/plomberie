@@ -6,7 +6,7 @@
     "plop": "^4.0.1"
   },
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "docs-build": "antora --fetch antora-playbook.yaml",
     "docs-serve": "http-server ./build/site",
