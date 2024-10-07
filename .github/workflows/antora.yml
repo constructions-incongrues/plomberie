@@ -24,7 +24,6 @@ jobs:
         uses: kameshsampath/antora-site-action@v0.2.4
         with:
           antora_playbook: antora-playbook.yml
-          site_sources_path: ./docs
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
