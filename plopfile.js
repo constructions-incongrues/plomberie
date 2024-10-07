@@ -6,7 +6,7 @@ export default function (plop) {
         type: "input",
         name: "destinationpath",
         message: "Template destination path",
-        default: ".",
+        default: "./static",
       },
       {
         type: "input",
@@ -26,6 +26,25 @@ export default function (plop) {
         type: "add",
         path: "{{destinationpath}}/{{fileName}}.html",
         templateFile: ".plop/templates/EmptyHtmlDocument.html.hbs",
+      },
+    ],
+  });
+
+  plop.setGenerator("Github Pages Workflow", {
+    description: "Generates workflow file for publishing to Github Pages",
+    prompts: [
+      {
+        type: "input",
+        name: "directory",
+        message: "Directory to upload",
+        default: "./static",
+      },
+    ],
+    actions: [
+      {
+        type: "add",
+        path: ".github/workflows/static.yaml",
+        templateFile: ".plop/templates/GithubPagesWorkflow.yaml.hbs",
       },
     ],
   });
