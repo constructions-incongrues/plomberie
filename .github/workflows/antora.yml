@@ -23,7 +23,7 @@ jobs:
       - name: Build
         uses: kameshsampath/antora-site-action@v0.2.4
         with:
-          antora_playbook: antora-playbook.yml
+          antora_playbook: antora-playbook.yaml
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
