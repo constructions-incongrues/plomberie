@@ -1,6 +1,6 @@
 site:
-  title: Plomberie
-  start_page: plomberie::index.adoc
+  title: Plomberie Documentation Portal
+  start_page: user-guide::features.adoc
 content:
   sources:
     - url: .
