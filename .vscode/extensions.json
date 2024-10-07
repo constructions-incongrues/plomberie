@@ -4,6 +4,7 @@
     "github.vscode-github-actions",
     "github.vscode-pull-request-github",
     "trunk.io",
-    "samkirkland.plop-templates"
+    "samkirkland.plop-templates",
+    "asciidoctor.asciidoctor-vscode"
   ]
 }
