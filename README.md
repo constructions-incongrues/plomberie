@@ -12,7 +12,8 @@
 - [ ] Repository settings as code
 - [ ] Devcontainer
 - [ ] Scaffolder
-- [ ] Documentation
+- [ ] Documentation portal
+- [ ] Verified commits
 
 ## Getting started
 
