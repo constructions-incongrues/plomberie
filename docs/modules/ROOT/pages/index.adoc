@@ -1,5 +1,0 @@
-= Plomberie
-
-:description: Plomberie documentation portal
-
-WORK IN PROGRESS :-)
