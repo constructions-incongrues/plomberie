@@ -2,15 +2,13 @@
 
 ## [0.3.0](https://github.com/constructions-incongrues/plomberie/compare/v0.2.0...v0.3.0) (2024-10-07)
 
-
 ### Features
 
-* **documentation:** documentation portal stub ([6b5ded5](https://github.com/constructions-incongrues/plomberie/commit/6b5ded51b2a0e1387b06ed78ba4fe569c1b8654c)), closes [#18](https://github.com/constructions-incongrues/plomberie/issues/18)
-
+- **documentation:** documentation portal stub ([6b5ded5](https://github.com/constructions-incongrues/plomberie/commit/6b5ded51b2a0e1387b06ed78ba4fe569c1b8654c)), closes [#18](https://github.com/constructions-incongrues/plomberie/issues/18)
 
 ### Bug Fixes
 
-* **ci:** do not lint CHANGELOG in order to enable autoreleasing ([#25](https://github.com/constructions-incongrues/plomberie/issues/25)) ([ce500b7](https://github.com/constructions-incongrues/plomberie/commit/ce500b746762e269f6d4155608082514cf7e630a))
+- **ci:** do not lint CHANGELOG in order to enable autoreleasing ([#25](https://github.com/constructions-incongrues/plomberie/issues/25)) ([ce500b7](https://github.com/constructions-incongrues/plomberie/commit/ce500b746762e269f6d4155608082514cf7e630a))
 
 ## [0.2.0](https://github.com/constructions-incongrues/plomberie/compare/v0.1.0...v0.2.0) (2024-10-07)
 
